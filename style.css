@@ -1,0 +1,56 @@
+h2{
+    position: relative;
+    top: 1em
+}
+body{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+   
+    
+}
+#container {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+
+  }
+.myInput{
+    padding:8px 20px;
+}
+label {
+
+    display: block;
+    position: relative;
+    right:4em;
+    margin-bottom: 5px;
+  }
+  #birthDate,#mySelect{
+    padding:7px 45px
+  }
+#MySub{
+    max-width: 300px;
+    position: relative;
+    left:20em;
+    background-color:hsl(214, 100%, 74%);
+    padding: 7px 10px;
+    font-size:1.5em;
+    color: white;
+    background-color:hsl(214, 100%, 74%);
+    border-radius:5px;
+    cursor:pointer;
+
+
+}
+#MySub:hover{
+    background-color:hsl(214, 100%, 50%);
+}
+.error{
+  color:red;
+  font-size:12px;
+}
